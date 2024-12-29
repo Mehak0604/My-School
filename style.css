@@ -1,0 +1,40 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+}
+
+h1{
+    color: blue;
+    padding: 0;
+}
+h2{
+    text-align: left;
+}
+hr{
+    margin: 20px;
+    width: 90%;
+}
+.title-image{
+    float: left;
+    margin-top: 30px;
+    margin-left: 0;
+}
+.logo-container{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+.logo{
+    float: left;
+}
+.content{
+    text-align: left;
+    border-radius: 30px;
+    padding: 20px;
+}
+@media(max-width:700){
+    flex-direction:column;
+    gap: 10px;
+}
